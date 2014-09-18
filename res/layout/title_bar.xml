@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/title_bar_style" >
+
+     <LinearLayout
+        android:id="@+id/id_title"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:background="@drawable/android_title_bg" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dip"
+            android:text="@string/category"
+            android:textColor="#ffffff"
+             android:textSize="@dimen/medium_text_size"  />
+    </LinearLayout>
+
+</RelativeLayout>
